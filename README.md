@@ -10,10 +10,7 @@ Explainable Pedestrian Crossing Intention Prediction Based On Multi-Task Mutual 
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">Overview of SparseDrive. SparseDrive first encodes multi-view images into feature maps,
-    then learns sparse scene representation through symmetric sparse perception, and finally perform
-    motion prediction and planning in a parallel manner. An instance memory queue is devised for
-    temporal modeling.</div>
+    padding: 2px;">Overview of MTMGN.</div>
 </center>
 <center>
     <img style="border-radius: 0.3125em;
@@ -23,8 +20,7 @@ Explainable Pedestrian Crossing Intention Prediction Based On Multi-Task Mutual 
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">Model architecture of symmetric sparse perception, which unifies detection, tracking and
-    online mapping in a symmetric structure.</div>
+    padding: 2px;">Model architecture of pedestrian posture generation task.</div>
 </center>
 <center>
     <img style="border-radius: 0.3125em;
@@ -34,6 +30,5 @@ Explainable Pedestrian Crossing Intention Prediction Based On Multi-Task Mutual 
     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
     display: inline-block;
     color: #999;
-    padding: 2px;">Model structure of parallel motion planner, which performs motion prediction and planning
-    simultaneously and outputs safe planning trajectory.</div>
+    padding: 2px;">Model structure of crossing intention prediction task.</div>
 </center>
