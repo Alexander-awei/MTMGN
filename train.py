@@ -17,7 +17,7 @@ from src.dataset.xyz1_m_1_try import DatasetPIE
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--cfg', default='h36m_xyz_series_20step_1_m_1')
+    parser.add_argument('--cfg', default='PIE_20step')
     parser.add_argument('--seed', type=int, default=0)
     parser.add_argument('--gpu-id', type=int, default=0)
 
